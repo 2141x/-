@@ -561,7 +561,7 @@ lol.Parent = game.Workspace.Players
 game.Players.LocalPlayer.Character:WaitForChild("BodyEffects")
 game.Players.LocalPlayer.Character.BodyEffects.BreakingParts:Destroy()
 end
-
+end
 			elseif Message == ".dolphin" then
 				if CurrAnim and CurrAnim.IsPlaying then
 					CurrAnim:Stop()
